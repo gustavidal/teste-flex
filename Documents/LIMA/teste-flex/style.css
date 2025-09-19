@@ -12,3 +12,88 @@ a{
 ul, ol, li{
     list-style: none;
 }
+
+.circulos{
+    width: 100%;
+    height: 20vh;
+    background-color: plum;
+    display:flex;
+    justify-content: right;
+    align-items: end;
+ }
+ 
+ .circulos div{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px lightgray;
+ }
+ 
+ .circulos2{
+    width: 100%;
+    height: 20vh;
+    background-color: lightgreen;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+ }
+ 
+ .circulos2 div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px lightgray;
+ }
+ 
+ .circulos3{
+    width: 100%;
+    height: 20vh;
+    background-color: lightcoral;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .circulos3 div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px lightgray;
+ }
+ 
+ .circulos4{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(244, 244, 70);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .circulos4 div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px lightgray;
+ }
+ 
+ .circulos5{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(105, 105, 215);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .circulos5 div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px lightgray;
+ }
